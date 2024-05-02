@@ -8,13 +8,17 @@ const Header = () => {
   const navigate = useNavigate();
 
   const handleLoginClick = () => {
-    // Handle login click event
+    alert("For demo purpose we are providing the form and displaying the blog.");
   };
 
-  const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleSearchInput = (event: React.ChangeEvent<HTMLInputElement>) => {
     const searchTerm = event.target.value;
-    // Handle search functionality
+    //search functionality would be later added.
   };
+
+  const handleSearch=()=>{
+    alert("Functionality not added for demo purpose.");
+  }
 
   const handleCreateBlog = (): void => {
     navigate("/")
@@ -23,8 +27,8 @@ const Header = () => {
   return (
     <header className="header">
       <div className="search">
-        <input type="text" placeholder="Search..." onChange={handleSearch} className="search-input" />
-        <FontAwesomeIcon icon={faSearch} className="search-icon" />
+        <input type="text" placeholder="Search..." onChange={handleSearchInput} className="search-input" />
+        <FontAwesomeIcon onClick={handleSearch} icon={faSearch} className="search-icon" />
       </div>
       <div className="brand">
         <h1>Large</h1>
