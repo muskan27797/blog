@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live Demo Link
 
-Open [https://bblog-posts.netlify.app/](https://bblog-posts.netlify.app/) to view it in the browser.
+Open [https://blogg-posts.netlify.app/](https://blogg-posts.netlify.app/) to view it in the browser.
 
 ## Features
 
