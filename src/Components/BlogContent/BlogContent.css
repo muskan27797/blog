@@ -1,0 +1,40 @@
+.display-blogs {
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    line-height: 32px;
+    font-size: 20px;
+    letter-spacing: -0.003em;
+    word-break: break-word;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #242424;
+    line-height: 47px;
+    letter-spacing: 0;
+}
+
+.date {
+    color: #5d5d5dbc;
+}
+
+.name {
+    color: #007bff;
+}
+
+.short-description {
+    margin-top: 20px;
+}
+
+hr {
+    color: #919191;
+}
+
+.overview {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

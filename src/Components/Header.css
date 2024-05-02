@@ -1,0 +1,82 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: black;
+  border-bottom: 1px solid #F2F2F2;
+
+  @media screen and (max-width:600px) {
+    .search {
+      display: none;
+    }
+
+    .login-button {
+      display: none;
+    }
+  }
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  right: 12px;
+  top: 13px;
+  color: #727272
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.write {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 26px;
+  cursor:pointer;
+}
+
+.write-icon {
+  color: #727272;
+  margin-right: 8px;
+  height: 30px
+}
+
+.login-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.login-button:hover {
+  background-color: #007bff;
+  color: #fff;
+}

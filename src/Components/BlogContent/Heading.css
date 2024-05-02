@@ -1,0 +1,12 @@
+.heading-title {
+    font-weight: 600;
+    color: #242424;
+    font-size: 28px;
+    line-height: 24px;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+}
+
+.heading-content {
+    margin-bottom: 20px;
+}
