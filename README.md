@@ -2,6 +2,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live Demo Link
+
+Open [https://bblog-posts.netlify.app/](https://bblog-posts.netlify.app/) to view it in the browser.
+
+## Features
+
+   ReactJS + TypeScript\
+   User-friendly Blog post screen for adding blog.\
+   Responsive\
+   Clean and organised code.\
+   Eye-catching UI design.
+
 ## Available Scripts
 
 In the project directory, you can run:
